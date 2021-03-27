@@ -1,7 +1,6 @@
 package BienesInmuebles.gui.Casas;
 
 import BienesInmuebles.ClasesConexion.CasaConexion;
-import BienesInmuebles.Datos.ClasesDatos.CasaDatos;
 import BienesInmuebles.Recursos.Clases.Casa;
 import BienesInmuebles.Recursos.Clases.CasaItem;
 
@@ -15,7 +14,7 @@ import java.awt.event.MouseEvent;
 import java.util.List;
 
 public class frmCasa {
-    private JPanel jpaPrincipal;
+    public JPanel jpaPrincipal;
     private JTextField txtTipoDiseño;
     private JTextField txtTamaño;
     private JTextField txtDescripcion;

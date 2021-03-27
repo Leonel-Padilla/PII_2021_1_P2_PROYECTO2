@@ -13,7 +13,7 @@ import java.awt.event.MouseEvent;
 import java.util.List;
 
 public class frmAutobus {
-    private JPanel jpaPrincipal;
+    public JPanel jpaPrincipal;
     private JPanel jpaIzquierda;
     private JPanel jpaInferior;
     private JPanel jpaDerecha;
@@ -236,4 +236,5 @@ public class frmAutobus {
         frame1.setVisible(true);
         //-----
     }
+
 }
